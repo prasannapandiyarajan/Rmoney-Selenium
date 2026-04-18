@@ -1,0 +1,43 @@
+username,password,conformpassword,pannumber,otp,scrip_name,Watchlist_tab,watchlist_bottom_tab,Testing_Area,Page,order_type,validity,expected,actual,status
+DVJ6550,Moneyplant@12,,,,,,,,,,,pass,login success,pass
+,,,,123456,,,,,,,,pass,OTP validated successfully,pass
+,,,,,,,,Buy button,Order Window,Buy,,Buy button clicked,Buy button clicked successfully,pass
+,,,,,,,,Regular tab,Order Window,Buy,,Regular tab clicked,Regular tab clicked successfully,pass
+,,,,,,,,Limit tab,Order Window,Buy,,Limit tab clicked,Limit tab clicked successfully,pass
+,,,,,,,,Advance option checkbox,Order Window,Buy,,Advance option checkbox clicked,Advance option checkbox clicked successfully,pass
+,,,,,,,,Intraday tab,Order Window,Buy,,Intraday tab clicked,Intraday tab clicked successfully,pass
+,,,,,,,,IOC button,Order Window,,,IOC button clicked,IOC button clicked successfully,pass
+,,,,,,,,Buy button,Order Window,Buy,,Buy button clicked,Buy button clicked and order placed successfully,pass
+,,,,,,,,Longterm tab,Order Window,,,Longterm tab clicked,Longterm tab clicked successfully,pass
+,,,,,,,,DAY button,Order Window,,,DAY button clicked,DAY button clicked successfully,pass
+,,,,,,,,Stop loss tab,Order Window,Buy,,Stop loss tab clicked,Stop loss tab clicked successfully,pass
+,,,,,,,,Pending checkbox,Order Window,Buy,,Pending checkbox clicked,Pending checkbox clicked successfully,pass
+,,,,,,,,AMO tab,Order Window,Buy,,AMO tab clicked,AMO tab clicked successfully,pass
+,,,,,,,,MTF tab,Order Window,Buy,,MTF tab clicked,MTF tab clicked successfully,pass
+,,,,,,,,Sell button,Order Window,Sell,,Sell button clicked,Sell button clicked successfully,pass
+,,,,,,,,Regular tab,Order Window,Sell,,Regular tab clicked,Regular tab clicked successfully,pass
+,,,,,,,,Limit tab,Order Window,Sell,,Limit tab clicked,Limit tab clicked successfully,pass
+,,,,,,,,Advance option checkbox,Order Window,Sell,,Advance option checkbox clicked,Advance option checkbox clicked successfully,pass
+,,,,,,,,Intraday tab,Order Window,Sell,,Intraday tab clicked,Intraday tab clicked successfully,pass
+,,,,,,,,Buy button,Order Window,Sell,,Buy button clicked,Buy button clicked and order placed successfully,pass
+,,,,,,,,Longterm tab,Order Window,Sell,,Longterm tab clicked,Longterm tab clicked successfully,pass
+,,,,,,,,Stop loss tab,Order Window,Sell,,Stop loss tab clicked,Stop loss tab clicked successfully,pass
+,,,,,,,,Pending checkbox,Order Window,Sell,,Pending checkbox clicked,Pending checkbox clicked successfully,pass
+,,,,,,,,AMO tab,Order Window,Sell,,AMO tab clicked,AMO tab clicked successfully,pass
+,,,,,,,,MTF tab,Order Window,Sell,,MTF tab clicked,MTF tab clicked successfully,pass
+,,,,,,,,Watchlist Scrip Presence,Watchlist,,,At least one scrip should be present in watchlist,Scrip found in watchlist,pass
+,,,,,,,,Buy Button,Watchlist,,,Buy window should open,Buy clicked successfully,pass
+,,,,,,,,Buy Cancel,Watchlist,,,Buy window should close,Buy cancelled successfully,pass
+,,,,,,,,Sell Button,Watchlist,,,Sell window should open,Sell clicked successfully,pass
+,,,,,,,,Sell Cancel,Watchlist,,,Sell window should close,Sell cancelled successfully,pass
+,,,,,,,,Chart,Watchlist,,,Chart should open,Chart opened successfully,pass
+,,,,,,,,Depth,Watchlist,,,Depth should open,Depth opened successfully,pass
+,,,,,,,,Depth Close,Watchlist,,,Depth should close,Depth closed successfully,pass
+,,,,,,,,Info,Watchlist,,,Info popup should open,Info opened successfully,pass
+,,,,,,,,Info Close,Watchlist,,,Info popup should close,Info closed successfully,pass
+,,,,,,,,Info,Watchlist,,,Info popup should open,Info opened successfully,pass
+,,,,,,,,Info Close,Watchlist,,,Info popup should close,Info closed successfully,pass
+,,,,,,,,Create Alert,Watchlist,,,Alert popup should open,Alert opened successfully,pass
+,,,,,,,,Create Alert Close,Watchlist,,,Alert popup should close,Alert closed successfully,pass
+,,,,,,,,Create GTT,Watchlist,,,GTT popup should open,GTT opened successfully,pass
+,,,,,,,,Create GTT Close,Watchlist,,,GTT popup should close,GTT closed successfully,pass

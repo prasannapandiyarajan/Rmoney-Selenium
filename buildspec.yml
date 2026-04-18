@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - docker --version
+
+  pre_build:
+    commands:
+      - echo "Building single container..."
+      - docker build -t selenium-app:latest .
+
+  build:
+    commands:
+      - echo "=== Running container ==="
+      - |
+        docker run --rm \
+          --name selenium-test \
+          --shm-size=2g \
+          selenium-app:latest
+
+  post_build:
+    commands:
+      - docker rmi selenium-app:latest || true
+      - echo "Done machaan!"
