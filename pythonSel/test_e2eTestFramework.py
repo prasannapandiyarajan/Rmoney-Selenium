@@ -39,7 +39,7 @@ test_results = []
 @pytest.mark.parametrize("username,password,expected", [
     # ("TEST109", "Admin@123", "pass"),
     # ("L2020", "Asd@123", "fail")
-    ("DVJ6550", "Moneyplant@12", "pass"),
+    ("DVJ7126", "Akash@#3", "pass"),
     # ("DVJ7126", "Akash@#3", "pass"),
     # ("MUL708", "Abc@1234", "pass"),
 ])
