@@ -300,7 +300,7 @@ if __name__ == "__main__":
     )
 
     send_mail_graph(
-        subject="Nirmalbang Automation Test Report",
+        subject="Rmoney Automation Test Report",
         body=body,
         csv_path=csv_path
     )
